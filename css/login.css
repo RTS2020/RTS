@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+body{
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    background: #f7f7f7;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.login-background {
+    max-width: 500px;
+    margin: 10% auto 20px;
+    -webkit-box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+    -moz-box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+    -o-box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+    box-shadow: 0 0 4px 0 rgba(41,39,44,.25);
+    background-color: #ffffff;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+.label-text {
+    font-weight: 600;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.label-settings{
+    font-weight: 700;
+    -webkit-box-flex: 1;
+    flex: 1;
+    max-width: 100%;
+}
+.form-group {
+    display: -webkit-box;
+    display: flex;
+    margin: 1rem 0 0;
+}
+.form-input {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1;
+    width: 100%;
+    outline: none;
+}
+.input-type{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 8px;
+    min-height: 46px;
+    border-radius: 4px;
+    position: relative;
+    line-height: initial;
+    border: 2px solid #eee;
+    font-size: 1.143em;
+}
+.form-input:focus{
+    border: 2px solid #4285f4;
+}
+.login-submit{
+    width: 100%;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    font-size: 1.429em;
+    height: 3rem;
+    margin: 0 auto;
+}
+.btn{
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: initial;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+}
+.or-line{
+    text-align: center;
+    position: relative;
+    top: -12px;
+    background: white;
+    padding: 6px;
+}
+.hr-line{
+    border-bottom: 1px solid #cacaca;
+    width: 100%;
+}
+.forgot-psw{
+    margin-top: 2rem;
+    font-size: 1.143em;
+    cursor: pointer;
+    font-weight: 700;
+    color: #616161;
+    text-align: center;
+}
+
+.google-btn {
+    width: 100%;
+    height: 42px;
+    background-color: initial;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+}
+.google-btn .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.google-btn .google-icon {
+    margin-top: 11px;
+    width: 18px;
+    height: 18px;
+}
+.google-btn .btn-text {
+    float: none;
+    position: relative;
+    top: 10px;
+    margin: 11px 11px 0 0;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.google-btn:active {
+box-shadow: 0 0 6px #4285f4;
+}
+.forgot-psw-singup{
+    color: #4285f4;
+}
+.forgot-psw-text{
+    text-decoration: none;
+    color: #616161;
+    cursor: pointer;
+}
+
