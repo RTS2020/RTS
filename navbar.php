@@ -1,7 +1,7 @@
 
 <div class="topnav-cover">
     <div class="topnav" id="myTopnav">
-        <a href="#home" id="logo" class="left">LOGO</a>
+        <a href="index.php" id="logo" class="left">LOGO</a>
         <a id="backBtn" onclick="inputClose()"><i class="fas fa-arrow-left"></i></a>
         <div class="argi">
             <span id ="searchBtn" class="search-button"><i class="fa fa-search"></i></span>
@@ -26,16 +26,6 @@
         </div>
     </div>
 
-    <div id="myModal" class="modal">
-
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <br><br>
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
-        </div>
-    </div>
-
 
 <script>
     let w = window.innerWidth; //Get the width of the screen!
@@ -47,17 +37,8 @@
     let searchBtn = document.getElementById("searchBtn");
     let dropbtnIcon = document.getElementsByClassName("icon")[0];
     let backBtn = document.getElementById('backBtn');
-    var modal = document.getElementById("myModal");
-    var btn = document.getElementById("myBtn");
-    var span = document.getElementsByClassName("close")[0];
 
-    btn.onclick = function() {
-        modal.style.display = "block";
-    };
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    };
     function inputOpen() {
         navSearch.style.display = 'block';
         dropbtnIcon.style.display = 'none';
@@ -114,9 +95,6 @@
             navSearch.style.backgroundColor = '#212121'
         }else{
             navSearch.style.backgroundColor = '#cccccc'
-        }
-        if (event.target == modal) {
-            modal.style.display = "none";
         }
     }
 

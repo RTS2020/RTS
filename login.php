@@ -51,12 +51,13 @@
     <br>
     <div class="hr-line"></div>
     <span class="or-line">Or</span>
-    <div class="google-btn">
+    <div class="google-btn" onclick="googleLogin()">
         <div class="google-icon-wrapper">
             <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
         </div>
         <p class="btn-text"><b>Sign in with google</b></p>
     </div>
+    <div style="display: none" class="g-signin2" data-onsuccess="onSignIn"></div>
 </div>
 </body>
 </html>
